@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import pfp from "../assets/pfp.jpg"
+import pfp from "../assets/pfp.png"
 import { Link } from "react-router-dom"
 import Header from "../components/Header"
 const ProfileContainer = styled.div`
