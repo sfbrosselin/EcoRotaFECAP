@@ -28,8 +28,8 @@ const SignUpContainer = styled.div`
 const NameContainer = styled.div`
     display:flex;
     justify-content:center;
-    gap:1.5vw;
-    margin:0;
+    gap:1vw;
+    margin:auto;
     margin-inline:50%; 
     font-family: "Baumans", system-ui;
 `
