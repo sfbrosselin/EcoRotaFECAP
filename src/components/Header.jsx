@@ -19,7 +19,7 @@ const Logo = styled.div`
     cursor:pointer;
     &:hover{
         color:#071f19;
-        transition: 0.15s ease;
+        transition: 0.10s ease;
     }
 `
 
