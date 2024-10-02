@@ -2,10 +2,10 @@
 import NavBar from "./NavBar";
 import styled from "styled-components";
 import NavBarModal from "./NavBarModal";
-import { Children, useState } from "react";
+import { useState } from "react";
 
 const HeaderContainer = styled.header`
-    background-color: #394130;
+    background-color:#394130;
     color: #fff6de;
     display: flex;
     justify-content:space-between;
@@ -27,6 +27,7 @@ export default function Header(){
     const [openModal, setOpenModal] = useState(false)
     function handleOpenModal(){
         setOpenModal(!openModal)
+        
     }
     return(
         <>
